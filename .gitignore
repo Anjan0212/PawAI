@@ -1,0 +1,27 @@
+# Secrets / local configuration
+.env
+*.env
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local test artifacts
+cookies.txt
+*.log
+
+# Build artifacts
+__pypackages__/
+dist/
+build/
